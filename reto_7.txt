@@ -12,3 +12,4 @@ falta:
 -almacenar las coordenadas
 -definir todos los metodos.
 -menú.
+-darle valores a los metodos abstractos en cada clase.
