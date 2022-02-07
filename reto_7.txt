@@ -1,0 +1,14 @@
+clase carreteracompleta:
+-una sola lista donde se almacenen todos los tramos de la carretera.
+-un metodo q devuelve la longitud total.
+-un metodo q devuele el area total.
+-un metodo q devuelve el volumen total de material a utilizar.
+-un metodo q devuelva el volumen total de asfalto
+-un metodo q devuelva elvolumen total de materia a utilizar sin asfalto.
+-un metodo q indique si todos los tramos de la carretera se conectan entre
+si o no.
+
+falta: 
+-almacenar las coordenadas
+-definir todos los metodos.
+-menú.
