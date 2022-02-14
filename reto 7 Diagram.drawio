@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T00:48:13.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" version="16.5.3" etag="rcKvMMdxSI5tZMBqA95b" type="github"><diagram id="vKMjzpnmoTuU4ELQacSz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-14T01:01:46.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="vu75aen4sVC71OIPlaOv" version="16.5.3" type="github">
+  <diagram id="vKMjzpnmoTuU4ELQacSz" name="Page-1">
+    <mxGraphModel dx="269" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D1k-0UgacUQQrUM_D93u-1" value="tramoGenerico" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-2" value="+Longitud.&#xa;+Area.&#xa;+Volumen.&#xa;+esAsfaltada.&#xa;+stringToDouble." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="D1k-0UgacUQQrUM_D93u-1">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-5" value="tramoAsfalto" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-6" value="-nombre proveedor.&#xa;-velocidad maxima.&#xa;-permitirAdelantamiento.&#xa;-coordenadas iniciales.&#xa;-coordenadas finales." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="D1k-0UgacUQQrUM_D93u-5">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-9" value="tramoSinAsfaltar" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-10" value="-tipo Material.&#xa;-Espesor del material.&#xa;-coordenadas iniciales.&#xa;-coordenadas finales." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="D1k-0UgacUQQrUM_D93u-9">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.454;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;" edge="1" parent="1" source="D1k-0UgacUQQrUM_D93u-13" target="D1k-0UgacUQQrUM_D93u-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-13" value="carreteraCompleta" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-14" value="-Carretera." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="D1k-0UgacUQQrUM_D93u-13">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;jumpStyle=none;dashed=1;" edge="1" parent="1" source="D1k-0UgacUQQrUM_D93u-2" target="D1k-0UgacUQQrUM_D93u-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;" edge="1" parent="1" source="D1k-0UgacUQQrUM_D93u-2" target="D1k-0UgacUQQrUM_D93u-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1k-0UgacUQQrUM_D93u-23" value="+longitud total.&lt;br&gt;+Area total.&lt;br&gt;+Volumen total.&lt;br&gt;+Volumen asfalto total.&lt;br&gt;+Volumen no asfalto total.&lt;br&gt;+Tramos conectados.&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="140" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
